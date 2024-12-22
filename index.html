@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaanSales - Shower Caps & Turban Towels</title>
+    <style>
+        /* Gradient background with overlay (Black) */
+        body {
+            background: linear-gradient(to right, #000000, #333333);
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Adding subtle pattern for a more professional background */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://www.transparenttextures.com/patterns/diagonal-stripes.png');
+            opacity: 0.1; /* Adjust opacity for subtle effect */
+        }
+
+        /* Center content container */
+        .container {
+            padding: 50px;
+            text-align: center;
+            position: relative;
+            z-index: 1; /* Ensure content is on top of the background */
+        }
+
+        /* Heading style */
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+            color: white;
+        }
+
+        /* Subheading styles */
+        .shop-now {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .best-prices {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            margin-top: 5px;
+        }
+
+        /* Image under header */
+        .header-image img {
+            width: 100%; /* Makes the image take the full width of the container */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 1200px; /* Limits the maximum width of the image */
+            margin-top: 20px; /* Space above the image */
+            border-radius: 10px; /* Optional: rounded corners for the image */
+        }
+
+        /* Product section styles */
+        .product-section {
+            background-color: white;
+            color: black;
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Product image */
+        .product-image img {
+            width: 200px; /* Reduced size of the product images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Product description */
+        .description {
+            font-size: 16px;
+            margin: 15px 0;
+            max-width: 350px; /* Set a max-width for the description */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Price styling */
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff7f00;
+            margin-bottom: 20px;
+        }
+
+        /* Buy button styling */
+        .buy-button {
+            background-color: #ff7f00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .buy-button:hover {
+            background-color: #e67600;
+        }
+
+        /* Contact info section */
+        .contact-info {
+            font-size: 18px;
+            margin-top: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Link to the site styled as a button */
+        .site-link {
+            display: inline-block;
+            background-color: #ff7f00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .site-link:hover {
+            background-color: #e67600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- LaanSales heading -->
+        <h1>LaanSales</h1>
+        
+        <!-- Subheading: Shop Now -->
+        <div class="shop-now">Shop Now</div>
+        
+        <!-- Subheading: with Best Prices -->
+        <div class="best-prices">With Best Prices</div>
+
+        <!-- Image below the header -->
+        <div class="header-image">
+            <img src="file:///C:/Users/Admin/Pictures/2.jpg" alt="LaanSales Image">
+        </div>
+
+        <!-- Product 1: Shower Cap -->
+        <div class="product-section">
+            <!-- Product Image -->
+            <div class="product-image">
+                <img src="file:///C:/Users/Admin/Documents/showercap.jpg.jpg" alt="Shower Cap">
+            </div>
+            <!-- Product Description -->
+            <div class="description">
+                The Shower Cap is perfect for use after washing your hair. It is designed to help you manage your hair while it dries. Made from absorbent materials, it keeps your hair protected and dry!
+            </div>
+            <!-- Price -->
+            <div class="price">Offer: 3 for KSH 1800</div>
+            <!-- Buy Button -->
+            <a href="https://example.com" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 2: Turban Towel -->
+        <div class="product-section">
+            <!-- Product Image -->
+            <div class="product-image">
+                <img src="file:///C:/Users/Admin/Documents/Towel.turban.jpg" alt="Turban Towel">
+            </div>
+            <!-- Product Description -->
+            <div class="description">
+                The Turban Towel is absorbent and made from a soft coral fleece material. It’s designed to quickly dry your hair after a bath or shower. It features a dot pattern and is elastic, ensuring a snug and comfortable fit!
+            </div>
+            <!-- Price -->
+            <div class="price">Offer: 1 for KSH 700</div>
+            <!-- Buy Button -->
+            <a href="https://example.com" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Link to the site -->
+        <a href="https://www.laansales.com" class="site-link" target="_blank">Visit LaanSales</a>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            For inquiries, contact us at <br>
+            Name: Suleiman Duba <br>
+            Tel: 0115030726
+        </div>
+    </div>
+</body>
+</html>
+
+
+
